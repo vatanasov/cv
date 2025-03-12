@@ -1,0 +1,40 @@
+{{define "experience"}}
+    <div id="technology-experience" class="d-flex">
+        <div class="list-group dev-icons">
+            {{range  .Technologies}}
+                {{if eq .Name $.TechnologyExperience.Name }}
+                    <button type="button"
+                            class="list-group-item list-group-item-action active">{{.TextEnhancement | raw}}</button>
+                {{else}}
+                    <button hx-get="/technology/{{.Name}}"
+                            hx-target="#technology-experience"
+                            hx-swap="outerHTML"
+                            class="list-group-item list-group-item-action">{{.TextEnhancement | raw}}</button>
+                {{end}}
+            {{end}}
+        </div>
+        <div class="p-3 opened-section flex-grow-1">
+            {{with .TechnologyExperience.Projects}}
+                <div class="subheading mb-3">Job-related projects:</div>
+                <ul class="fa-ul mb-0 list-group">
+                    {{range .}}
+                        <li>
+                            <a class="list-group-item nav-link js-scroll-trigger"
+                               href="#project-{{.ID}}">{{.Project}}</a>
+                        </li>
+                    {{end}}
+                </ul>
+            {{end}}
+            {{with .TechnologyExperience.Repos}}
+                <div class="subheading mb-3 mt-3">Worked on GitHub Repos:</div>
+                <ul class="fa-ul mb-0 list-group">
+                    {{range .}}
+                        <li>
+                            <a class="list-group-item" href="{{.HtmlUrl}}">{{.Name}}</a>
+                        </li>
+                    {{end}}
+                </ul>
+            {{end}}
+        </div>
+    </div>
+{{end}}
