@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Candidate xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd" xmlns="http://www.europass.eu/1.0" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <hr:DocumentID schemeID="Test-0001" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0"/>
+    <CandidateSupplier>
+        <hr:PartyID schemeID="Test-0001" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0"/>
+        <hr:PartyName>Owner</hr:PartyName>
+        <PersonContact>
+            <PersonName>
+                <oa:GivenName>Test</oa:GivenName>
+                <hr:FamilyName>Testing</hr:FamilyName>
+            </PersonName>
+            <Communication>
+                <ChannelCode>Email</ChannelCode>
+                <oa:URI>test@testing</oa:URI>
+            </Communication>
+        </PersonContact>
+        <hr:PrecedenceCode>1</hr:PrecedenceCode>
+    </CandidateSupplier>
+    <CandidatePerson>
+        <PersonName>
+            <oa:GivenName>Test</oa:GivenName>
+            <hr:FamilyName>Testing</hr:FamilyName>
+        </PersonName>
+        <Communication>
+            <ChannelCode>Email</ChannelCode>
+            <oa:URI>test@testing</oa:URI>
+        </Communication>
+        <NationalityCode>bg</NationalityCode>
+        <hr:BirthDate>1990-01-10</hr:BirthDate>
+        <PrimaryLanguageCode name="NORMAL">bul</PrimaryLanguageCode>
+    </CandidatePerson>
+    <CandidateProfile languageCode="en">
+        <hr:ID schemeID="Test-0001" schemeName="CandidateProfileID" schemeAgencyName="EUROPASS" schemeVersionID="1.0"/>
+        <EmploymentHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Test organization 1</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Pernik</oa:CityName>
+                            <CountryCode>bg</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="URI" languageID="http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1">Software developer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2016</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2025-01-01</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Worked on several projects:&lt;/p&gt;&lt;ol&gt;&lt;li data-list="bullet"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Test project 1&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Role: Backend developer&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Stack: Elixir, PostgreSQL&lt;/li&gt;&lt;li data-list="bullet"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Platform test&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Role: Backend developer&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Stack: Python, PostgreSQL, Django&lt;/li&gt;&lt;li data-list="bullet"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Web application for testing&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Role: Full stack developer&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Stack: React, TypeScript, Node.js, MongoDB, GCP&lt;/li&gt;&lt;li data-list="bullet"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Testorato&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Role: Backend developer&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Stack: Elixir, Phoenix, PostgreSQL&lt;/li&gt;&lt;li data-list="bullet"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Another test project&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Role: Backend developer&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Stack: Elixir, Phoenix, PostgreSQL, GraphQL&lt;/li&gt;&lt;li data-list="bullet"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Even more test projects&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Role: Software developer&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Stack: Typescript, PostgreSQL, DynamoDB, RDS, Lambda, SQS&lt;/li&gt;&lt;li data-list="bullet"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Test platform&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Role: Full stack developer&lt;/li&gt;&lt;li data-list="bullet" class="ql-indent-1"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Stack: Elixir, Phoenix, Phoenix LiveView, PostgreSQL&lt;/li&gt;&lt;/ol&gt;</oa:Description>
+                    <City>Pernik</City>
+                    <Country>bg</Country>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Test organization 2</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Montana</oa:CityName>
+                            <CountryCode>bg</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="URI" languageID="http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d">Web developer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2013</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2016</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Example description without roles&lt;/p&gt;</oa:Description>
+                    <City>Montana</City>
+                    <Country>bg</Country>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Another test organization</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Yambol</oa:CityName>
+                            <CountryCode>bg</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="URI" languageID="http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d">Web developer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2012</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2013</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Some test description&lt;/p&gt;</oa:Description>
+                    <City>Yambol</City>
+                    <Country>bg</Country>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Yet another test organization</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Lovech</oa:CityName>
+                            <CountryCode>bg</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">Some position</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2009</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2011</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p class="ql-align-justify"&gt;Some description suite:&lt;/p&gt;&lt;ol&gt;&lt;li data-list="bullet" class="ql-align-justify"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Example;&lt;/li&gt;&lt;li data-list="bullet" class="ql-align-justify"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt;Second example;&lt;/li&gt;&lt;li data-list="bullet" class="ql-align-justify"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt; Third example;&lt;/li&gt;&lt;li data-list="bullet" class="ql-align-justify"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt; And so on;&lt;/li&gt;&lt;li data-list="bullet" class="ql-align-justify"&gt;&lt;span class="ql-ui"&gt;&lt;/span&gt; And so forth.&lt;/li&gt;&lt;/ol&gt;</oa:Description>
+                    <City>Lovech</City>
+                    <Country>bg</Country>
+                </PositionHistory>
+            </EmployerHistory>
+        </EmploymentHistory>
+        <EducationHistory>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>University of test</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>City</oa:CityName>
+                            <CountryCode>bg</CountryCode>
+                        </Address>
+                    </Communication>
+                    <Communication>
+                        <ChannelCode>Web</ChannelCode>
+                        <oa:URI>link.com</oa:URI>
+                    </Communication>
+                </OrganizationContact>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>2004</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>2005</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>Master of test</hr:DegreeName>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>University of test</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>City</oa:CityName>
+                            <CountryCode>bg</CountryCode>
+                        </Address>
+                    </Communication>
+                    <Communication>
+                        <ChannelCode>Web</ChannelCode>
+                        <oa:URI>uni.test</oa:URI>
+                    </Communication>
+                </OrganizationContact>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>2000</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>2004</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>Bachelor of test</hr:DegreeName>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+        </EducationHistory>
+        <eures:Licenses/>
+        <Certifications/>
+        <PublicationHistory/>
+        <PersonQualifications>
+            <PersonCompetency>
+                <CompetencyID schemeName="NORMAL">eng</CompetencyID>
+                <hr:TaxonomyID>language</hr:TaxonomyID>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Listening</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Reading</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Interaction</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Writing-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+            </PersonCompetency>
+        </PersonQualifications>
+        <EmploymentReferences/>
+        <CreativeWorks/>
+        <Projects/>
+        <SocialAndPoliticalActivities/>
+        <CommunicationAndInterpersonalSkills/>
+        <DigitalSkills>
+            <DigitalSkillsGroup/>
+        </DigitalSkills>
+        <NetworksAndMemberships/>
+        <ConferencesAndSeminars/>
+        <VoluntaryWorks/>
+    </CandidateProfile>
+    <RenderingInformation>
+        <Design>
+            <Template>Template1</Template>
+            <Color>Default</Color>
+            <FontSize>Medium</FontSize>
+            <Logo>None</Logo>
+            <PageNumbers>false</PageNumbers>
+            <SectionsOrder>
+                <Section>
+                    <Title>work-experience</Title>
+                </Section>
+                <Section>
+                    <Title>education-training</Title>
+                </Section>
+                <Section>
+                    <Title>language</Title>
+                </Section>
+            </SectionsOrder>
+        </Design>
+    </RenderingInformation>
+</Candidate>

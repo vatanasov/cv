@@ -28,7 +28,7 @@ func TestExtract(t *testing.T) {
 		wantErr error
 	}{
 		{"missing file", args{"invalid_file"}, nil, ErrMissingFile},
-		{"works", args{"../testdata/test.pdf"}, result, nil},
+		{"works", args{"../testdata/test_with_attachment.pdf"}, result, nil},
 	}
 	for _, tt := range tests {
 		t.Run(
